@@ -21,18 +21,21 @@
     </build>
 
     <dependencies>
+
         <!-- For servlet support -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.0-b01</version>
         </dependency>
+
         <!-- Contains compiler itself -->
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>javax.servlet.jsp</artifactId>
             <version>2.3.2</version>
         </dependency>
+
         <!-- Testing -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -46,6 +49,7 @@
             <version>2.0.0.0</version>
             <scope>test</scope>
         </dependency>
+
         <!-- Util -->
         <dependency>
             <groupId>commons-io</groupId>
