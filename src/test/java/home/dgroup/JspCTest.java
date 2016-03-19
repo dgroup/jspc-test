@@ -24,9 +24,9 @@ public class JspCTest {
 
     @Test
     public void findWebXml(){
-        File jspSrc = new File("src/test/resources/demo-war/WEB-INF/web.xml");
-        assertTrue(jspSrc.exists(), "web.xml not found");
-        assertTrue(jspSrc.isFile(), "web.xml should be a file");
+        File webXml = new File("src/test/resources/demo-war/WEB-INF/web.xml");
+        assertTrue(webXml.exists(), "web.xml not found");
+        assertTrue(webXml.isFile(), "web.xml should be a file");
     }
 
 
